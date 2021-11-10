@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body onload="startTime()">
 
   <div class="container">
 
@@ -30,11 +30,30 @@
           </li>
           <li><a target="_blank" href="https://github.com/maulidrezki"><i class="fab fa-github"></i></a></li>
           <li><a target="_blank" href="mailto: maulidrezki13@gmail.com"><i class="far fa-envelope"></i></a></li>
+          <li><div id="txt"></div></li>
         </ul>
-
     </div>
 
   </div>
+
+<!-- time widget -->
+<script>
+    function startTime() {
+      const today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      let s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
+      setTimeout(startTime, 1000);
+    }
+
+    function checkTime(i) {
+      if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
+      return i;
+    }
+  </script>
   </body>
 
 </html>

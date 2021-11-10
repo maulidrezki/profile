@@ -71,6 +71,16 @@ ul {
   border-radius: 10%;
 }
 
+
+#txt{
+    box-sizing: border-box;
+    font-size: 40px;
+    font-weight: 300;
+    color: inherit;
+    display: inline-flex;
+    font-family: 'Monoton', cursive;
+    color:rgb(0, 0, 0);
+}
 /* .list-inline{
   font-size: 50px;
   list-style: none;
