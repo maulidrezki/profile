@@ -1,0 +1,86 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card-white {
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  color:rgb(0, 0, 0);
+}
+
+h2 {
+  font-family: 'Monoton', cursive;
+  color:rgb(0, 0, 0);
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(240, 165, 0);
+  color:rgb(0, 0, 0);
+}
+
+.socialslogo {
+  list-style: none;
+  display:inline-block;
+  text-align: center;
+  font-size: 50px;
+  padding: 0px 20px;
+
+}
+
+.socialslogo a{
+  color:rgb(0, 0, 0);
+
+}
+
+.socialslogo li{
+  display:inline-block;
+}
+
+ul {
+    display:block;
+    list-style-type: disc;
+    margin:0;
+}
+
+/* .list-inline{
+  font-size: 50px;
+  list-style: none;
+  display:inline-block;
+  text-align: center;
+} */
+
+.devstacks {
+  list-style: none;
+  display:inline-block;
+}
+
+.imagecircle {
+  border-radius: 10%;
+}
+
+/* .list-inline{
+  font-size: 50px;
+  list-style: none;
+  display:inline-block;
+  text-align: center;
+} */
+/* background: white;                         White background */
+/* padding: 30px;                             Internal space */
+/* border-radius: 4px;                        Small radius */
+/* box-shadow: 0 10px 30px rgba(0,0,0,.1); */
+
+
+/* width: 300px;        Set the width */
+/* margin: 0 auto;      Set automatic margins on right/left */
